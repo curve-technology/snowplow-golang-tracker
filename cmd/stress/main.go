@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sp "github.com/snowplow/snowplow-golang-tracker/tracker"
+	sp "github.com/curve-technology/snowplow-golang-tracker/v2/tracker"
 	"log"
 	"net/http"
 	"strconv"
