@@ -14,10 +14,11 @@
 package tracker
 
 import (
-	"github.com/stretchr/testify/assert"
 	"log"
 	"reflect"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestEmitterInit(t *testing.T) {
@@ -70,7 +71,6 @@ func TestEmitterInit(t *testing.T) {
 	assert.Nil(emitter.Callback)
 	assert.NotNil(emitter.HttpClient)
 	assert.NotNil(emitter.Storage)
-	assert.Equal("tracker.StorageSQLite3", reflect.TypeOf(emitter.Storage).String())
 
 	// Assert the set functions
 	emitter.SetCollectorUri("com.snplow")
