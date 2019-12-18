@@ -1,4 +1,4 @@
-module github.com/curve-technology/snowplow-golang-tracker/v2
+module github.com/curve-technology/snowplow-golang-tracker/v3
 
 go 1.13
 
